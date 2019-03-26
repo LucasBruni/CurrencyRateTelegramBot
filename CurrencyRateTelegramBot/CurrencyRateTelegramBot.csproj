@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="obj\Debug\netcoreapp2.1\CurrencyRateTelegramBot.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\netcoreapp2.1\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\netcoreapp2.1\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\netcoreapp2.1\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="obj\project.assets.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="obj\CurrencyRateTelegramBot.csproj.nuget.cache" />
+    <None Include="obj\CurrencyRateTelegramBot.csproj.nuget.g.props" />
+    <None Include="obj\CurrencyRateTelegramBot.csproj.nuget.g.targets" />
+    <None Include="obj\Debug\netcoreapp2.1\CurrencyRateTelegramBot.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\netcoreapp2.1\CurrencyRateTelegramBot.assets.cache" />
+    <None Include="obj\Debug\netcoreapp2.1\CurrencyRateTelegramBot.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\netcoreapp2.1\CurrencyRateTelegramBot.csprojAssemblyReference.cache" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="bin\Debug\netcoreapp2.1\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.1" />
+    <PackageReference Include="Telegram.Bot" Version="14.10.0" />
+  </ItemGroup>
+
+</Project>
